@@ -31,6 +31,24 @@ java -version
 
 You should see `openjdk 21` (or higher). If not, install JDK 21 from https://adoptium.net and ensure it is on your `PATH`.
 
+### Gradle 9.5.0 or newer
+
+The project uses a version of the AGP plugin that requires gradle 9.5.0 or newer.  You can check your gradle version by running
+
+```
+gradle --version
+```
+
+You should see something similar to:
+
+```
+------------------------------------------------------------
+Gradle 9.6.1
+------------------------------------------------------------
+```
+
+If you see a version lower than `9.5.0`, install a newer version of gradle and ensure its on your `PATH`.
+
 ## Recommended Device Setup
 
 To run the app on a device during the interview, set up one of the following ahead of time:
